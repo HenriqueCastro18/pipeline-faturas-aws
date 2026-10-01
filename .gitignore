@@ -1,0 +1,16 @@
+# Credenciais e ambiente
+.env
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Arquivos gerados em runtime
+downloads/*
+!downloads/.gitkeep
+
+# Material interno do exercício (não publicar)
+relatorio/
